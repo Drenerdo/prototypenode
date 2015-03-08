@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title><%- title %></title>
+		<script type="text/javascript" src="../javascripts/lib/jquery.min.js"></script>
+		<script type="text/javascript" src="../javascripts/lib/jquery.hammer.min.js"></script>
+		<script type="text/javascript" src="../javascripts/lib/three.min.js"></script>
+
+		<script type="text/javascript" src="../javascripts/lib/THREEx.FullScreen.js"></script>
+		<script type="text/javascript" src="../javascripts/lib/detector.js"></script>
+		<script type="text/javascript" src="../javascripts/lib/stats.js"></script>
+
+		<script type="text/javascript" src="../javascripts/OculusRiftEffect.js"></script>
+		<script type="text/javascript" src="../javascripts/controls/DeviceOrientationControls.js"></script>
+		<link rel="stylesheet" type="text/css" href="../stylesheets/main.css">
+	</head>
+	<body>
+		<div id="aquila" style="">
+		</div>
+
+
+		<!-- This will be used for the mobile version of SnippetTour -->
+
+		<script type="text/javascript" src="../javascripts/aquilaMobile.js"></script>
+		<script type="text/javascript" src="../javascripts/main.js"></script>
+
+		<script>
+		init({
+			$target: $('#aquila'),
+			videoURL: '../videos/show.mp4'
+		});
+		</script>
+	</body>
+
+</html>

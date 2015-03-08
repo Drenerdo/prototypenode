@@ -1,0 +1,23 @@
+{
+  "name": "snippetlive",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "express": "*",
+    "ejs": "*",
+    "static-favicon": "*",
+    "morgan": "*",
+    "cookie-parser": "*",
+    "body-parser": "*",
+    "debug": "*",
+    "passport": "*",
+    "passport-local": "*",
+    "mongoose": "*",
+    "express-session": "*",
+    "bcrypt-nodejs": "*",
+    "connect-flash": "*"
+  }
+}
